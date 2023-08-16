@@ -22,7 +22,7 @@
           <param name="userSettingsSelection" value="settings.xml" />
         </parameters>
       </runner>
-      <runner id="RUNNER_2" name="" type="Maven2">
+      <runner id="RUNNER_2" name="mvn clean test" type="Maven2">
         <conditions>
           <does-not-contain name="teamcity.build.branch" value="master" />
         </conditions>
